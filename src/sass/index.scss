@@ -1,0 +1,9 @@
+$width: 100px;
+$height: 200px;
+$marginTop: 10px;
+div {
+    /*  width: $width;
+    height: $height; */
+    margin-top: $marginTop;
+    border: 1px solid #ccc;
+}

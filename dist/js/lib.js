@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.square=square,exports.diag=diag;var sqrt=exports.sqrt=Math.sqrt;function square(r){return r*r}function diag(r,e){return sqrt(square(r)+square(e))}

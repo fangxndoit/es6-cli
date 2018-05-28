@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="dist/css/index.css">
+  <!--   <script src="dist/js/index.js"></script> -->
+   
+    <title>Document</title>
+</head>
+<style lang="less">
+
+</style>
+<body>
+    <div id='btn'>你好，我是 gulp.</div> 
+    <!-- <button id='btn'>点击我</button> -->
+   
+    <script type="module">
+        import addTextToBody,{foo, bar} from './module/utils.js';
+        addTextToBody('Modules are pretty cool.');
+        foo();
+        bar();
+    </script>
+
+    <script src="dist/js/import.js"></script>
+</body>
+</html>
